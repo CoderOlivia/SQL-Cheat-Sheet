@@ -64,27 +64,27 @@ DELETE FROM table_name
 WHERE some_column = some_value;
 DELETE statements are used to remove rows from a table.
 
-GROUP BY
+**GROUP BY**
 SELECT column_name, COUNT(*)
 FROM table_name
 GROUP BY column_name;
 GROUP BY is a clause in SQL that is only used with aggregate functions. It is used in collaboration with the SELECT statement to arrange identical data into groups.
 
-HAVING
+**HAVING**
 SELECT column_name, COUNT(*)
 FROM table_name
 GROUP BY column_name
 HAVING COUNT(*) > value;
 HAVING was added to SQL because the WHERE keyword could not be used with aggregate functions.
 
-INNER JOIN
+**INNER JOIN**
 SELECT column_name(s)
 FROM table_1
 JOIN table_2
   ON table_1.column_name = table_2.column_name;
 An inner join will combine rows from different tables if the join condition is true.
 
-INSERT
+**INSERT**
 INSERT INTO table_name (column_1, column_2, column_3) 
 VALUES (value_1, 'value_2', value_3);
 INSERT statements are used to add a new row to a table.
