@@ -1,5 +1,4 @@
 # SQL-Cheat-Sheet
-SQL Cheat Sheet
 ## List of SQL Commands
 
 ### BACKGROUND
@@ -8,7 +7,7 @@ SQL, Structured Query Language, is a programming language designed to manage dat
 Here’s an appendix of commonly used commands.
 
 ### COMMANDS
-ALTER TABLE
+**ALTER TABLE**
 ALTER TABLE table_name 
 ADD column_name datatype;
 ALTER TABLE lets you add columns to a table in a database.
